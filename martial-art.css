@@ -1,0 +1,237 @@
+ body{
+            margin:0 0 0 0;
+            background-color: black;
+            color:white;
+
+        }
+        .navbar{
+            width:100%;
+            position:absolute;
+            top:0;
+            left:0;
+            display:flex;
+            padding-left:30px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+            position: fixed;
+            z-index:1;
+        }
+        .navbar_items{
+            margin-left:5em;
+            cursor: pointer;
+            margin-right:10vh;
+        }
+        .navbar_items li {
+            cursor: pointer;
+            list-style: none;
+            display:inline-block;
+            margin-left:30px;
+            cursor: pointer;
+        }
+        .navbar_items li a{
+            cursor: pointer;
+            text-decoration: none;
+            color:rgb(156,122,14);
+        }
+        .first_text{
+            position:absolute;
+            top:40vh;
+            right:3vh;
+        }
+        .first_text_1{
+            color:black;
+            font-size:4em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-style: normal;
+        }
+        .martial_art{
+            text-align: center;
+            color:rgb(156,122,14);
+            background-color: lightgrey;
+        }
+        .second_image{
+            width:100%;
+        }
+        .second_text{
+            width:50vh;
+            position:absolute;
+            top:150vh;
+            right:3vh;
+        }
+        .heading{
+            padding-left:8vh;
+            color:rgb(156,122,14);
+            margin-bottom:0;
+            
+        }
+        .para{
+            font-size:0.8em;
+            margin-top:0;
+        }
+        .second-text-1{
+            padding-top:5vh;
+             
+        }
+        .third-image{
+            width:100%;
+        }
+        .third-text{
+            width:130vh;
+            position: absolute;
+            top:260vh;
+            right:27vh;
+        }
+        .third-heading{
+            font-size:2em;
+            text-align: center;
+            color:rgb(156,122,14);
+            font-style: normal;
+            font-weight: bolder;
+            
+        }
+        .third-para{
+            padding-top:1vh;
+        }
+        .fourth{
+            margin-top:2.5em;
+            margin-bottom:2.5em;
+            position:absolute;
+            top:310vh;
+            background-color: black;
+            padding-left: 70vh;
+            padding-right:71vh;
+            
+        }
+        .team-photos{
+            position:absolute;
+            top:330vh;
+        }
+        .fourth_text{
+            font-size:3em;
+            color:rgb(156,122,14);
+            text-align:center;
+
+        }
+        .first-row,.second-row,.third-row{
+            display:flex;
+            flex-direction: row;
+        }
+        .jimmy{
+            width:50%;
+            position:relative;
+        }
+        .jimmy-name{
+            position:absolute;
+             top:60vh;
+             left:40vh;
+             color: rgb(156,122,14);
+             font-weight: bold;
+        }
+        .profesion{
+            position:absolute;
+            top:65vh;
+            left:42vh;
+            font-weight: 500;
+        }
+        .trainer{
+            position:absolute;
+            top:69vh;
+            left:38vh;
+            font-weight:500;
+        }
+        .man-name{
+            position:absolute;
+             top:62vh;
+             right:40vh;
+             color: rgb(156,122,14);
+             font-weight: bold;
+        }
+        .trainer1{
+            position:absolute;
+            top:66vh;
+            right:41vh;
+            font-weight:500;
+        }
+        .jimmy:hover{
+            border-width:1px;
+            border-radius: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+
+        }
+        .man{
+            width:50%;
+             
+        }
+        .man:hover{
+            border-radius:2px;
+            border-width:1px;
+            border-style: solid;
+            border-color:white;
+
+        }
+        .hang,.alan,.ramond,.lenny{
+            width:25%;
+        }
+       
+        
+         .ian,.andy,.lik{
+            width:33.33%;
+         }
+         .last-image{
+            width:100%;
+            opacity:0.40;
+         }
+         .last-container{
+            position: relative;
+         }
+         .last-text{
+            position:absolute;
+            top:30vh;
+            left:40vh;
+            font-size:3em;
+            color: rgb(156,122,14);
+            font-weight: bold;
+         }
+         .last-text p{
+            margin:0 0 0 0;
+         }
+         .adress{
+            position:absolute;
+            top:60vh;
+            left:40vh;
+            font-size:1em;
+            font-weight: bold;;
+         }
+         .adress p{
+            margin-bottom:2px;
+             
+         }
+         .phone{
+            position:absolute;
+            top:85vh;
+            left:40vh;
+            font-size:1em;
+            font-weight: bold;
+         }
+         .phone p{
+            margin-bottom:2px;
+         }
+         .copyright{
+            display:block;
+            text-align:center;
+             justify-content: center;
+             padding-bottom:3vh;
+             padding-top:3vh;
+             color:rgb(156,122,14);
+         }
+         .plus{
+            background-color: rgb(156,122,14);
+            color:white;
+            padding-left:1vh;
+            padding-right:1vh;
+            font-size:1em;
+         }
+        
